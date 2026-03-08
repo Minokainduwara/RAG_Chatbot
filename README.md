@@ -21,12 +21,13 @@ RAG_Chatbot/
 ├── chatbot.py              # Main entry point — RAG chain + interactive chatbot
 ├── document_processor.py   # Loads and splits documents into chunks
 ├── embedding_indexer.py    # Creates and saves FAISS vector store
+├── rag_chain.py            # Defines the RAG pipeline
 ├── data/
 │   └── sample_text.txt     # Your knowledge base document
 ├── vector_db/              # Auto-generated FAISS index (created on first run)
 ├── .env                    # API keys (not committed to git)
 ├── requirements.txt        # Python dependencies
-└── README.md
+└── README.md               # Project documentation
 ```
 
 ---
